@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+.home {
+  height: 80vh;
+  display: flex;
+}
+.left-space {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left-space-h1 {
+  width: 35rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.left-space-h3 {
+  width: 30rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+.left-space-findbtn {
+  width: 8rem;
+  border-radius: 2rem;
+  color: black;
+  background-color: greenyellow;
+  margin-top: 4rem;
+}
+
+.right-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doctor-image {
+  height: 30rem;
+  width: 20rems;
+  margin: 4rem;
+}
